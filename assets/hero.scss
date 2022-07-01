@@ -1,0 +1,16 @@
+.desktop-hero-image {}
+
+.mobile-hero-image {
+	width: 100%;
+    display: none
+}
+
+@media all and (max-width: 480px) {
+    .desktop-hero-image {
+        display: none
+    }
+
+    .mobile-hero-image {
+        display: block;
+    }
+}

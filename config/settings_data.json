@@ -1,0 +1,797 @@
+{
+  "current": {
+    "color_text": "#fafafa",
+    "color_body_text": "#ffffff",
+    "color_sale_text": "#e32c2b",
+    "color_button": "#b4b3b3",
+    "color_button_text": "#fff",
+    "color_small_button_text_border": "#faf9f5",
+    "color_text_field_text": "#000",
+    "color_text_field_border": "#949494",
+    "color_text_field": "#b4b3b3",
+    "color_image_overlay_text": "#fff",
+    "color_image_overlay": "#1e1e1e",
+    "image_overlay_opacity": 40,
+    "color_borders": "#2f2f2f",
+    "color_body_bg": "#1e1e1e",
+    "type_header_font": "univers_next_typewriter_n4",
+    "type_header_base_size": 30,
+    "type_base_font": "univers_next_typewriter_n4",
+    "type_base_size": 16,
+    "type_bold_product_titles": false,
+    "share_image": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_twitter_link": "",
+    "social_facebook_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "favicon": "",
+    "enable_ajax": true,
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#faf9f5",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Open Sans",
+    "checkout_body_font": "Open Sans",
+    "checkout_accent_color": "#f1c03e",
+    "checkout_button_color": "#f1c03e",
+    "checkout_error_color": "#e32c2b",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "left",
+          "logo": "shopify:\/\/shop_images\/mental_strength_book_675cb0b2-5159-428a-b212-3391b90fd63a.png",
+          "logo_max_width": 250,
+          "main_linklist": "main-menu",
+          "message": true,
+          "home_page_only": false,
+          "message_text": "NEW: 28 DAY MENTAL STRENGTH HACKS EBOOK. VIEW HERE >",
+          "message_link": "shopify:\/\/products\/28-day-mental-strength-trial-challenges",
+          "color_bg": "#2f2f2f",
+          "color_text": "#ffffff"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1570796455231": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Get notified when we launch new exciting products and services by entering your email address here..."
+            }
+          }
+        },
+        "block_order": [
+          "1570796455231"
+        ],
+        "settings": {
+          "show_payment_icons": true,
+          "color_footer_bg": "#5a4632",
+          "color_footer_text": "#faf9f5"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "image_size": "medium",
+          "show_quantity_selector": false,
+          "show_variant_labels": false,
+          "show_vendor": false,
+          "enable_zoom": false,
+          "enable_payment_button": true,
+          "show_share_buttons": true
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_vendor": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 3,
+          "rows": 8,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": false
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": 3
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "layout": "list",
+          "blog_show_author": true,
+          "blog_show_date": true
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_ajax_enable": true,
+          "cart_notes_enable": true
+        }
+      },
+      "1570796607056": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Soldiers-Mentality-Web_02.png",
+          "image_for_mobile": "shopify:\/\/shop_images\/Mobile---Soldiers-Mentality_02.png",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "large",
+          "text_size": "medium",
+          "title": "",
+          "text": "",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1570797091654": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Soldiers-Mentality-Web_01.png",
+          "image_for_mobile": "shopify:\/\/shop_images\/Mobile---Soldiers-Mentality_01.png",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "large",
+          "text_size": "medium",
+          "title": "",
+          "text": "",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1571913570191": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Soldiers-Mentality-Web_03.png",
+          "image_for_mobile": "shopify:\/\/shop_images\/Mobile---Soldiers-Mentality_03.png",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "large",
+          "text_size": "medium",
+          "title": "",
+          "text": "",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1571913617304": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Soldiers-Mentality-Web_04.png",
+          "image_for_mobile": "shopify:\/\/shop_images\/Mobile---Soldiers-Mentality_04.png",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "large",
+          "text_size": "medium",
+          "title": "",
+          "text": "",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1575496281081": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Soldiers-Mentality-Web_05.png",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "large",
+          "text_size": "medium",
+          "title": "",
+          "text": "",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1575496301693": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Soldiers-Mentality-Web_06.png",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "large",
+          "text_size": "medium",
+          "title": "",
+          "text": "",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1575496371680": {
+        "type": "featured-product",
+        "settings": {
+          "featured_product": "special-forces-mental-strength-hacks-ebook",
+          "image_size": "medium",
+          "show_quantity_selector": false,
+          "show_variant_labels": true,
+          "show_vendor": false,
+          "enable_zoom": false,
+          "enable_payment_button": true,
+          "show_share_buttons": true
+        }
+      },
+      "1575496403802": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/mental_strength_book_675cb0b2-5159-428a-b212-3391b90fd63a.png",
+          "layout": "left",
+          "title": "",
+          "text": "<p><a href=\"\/pages\/terms\" title=\"Terms\">TERMS<\/a>   <a href=\"\/pages\/privacy\" title=\"Privacy\">PRIVACY<\/a>   <a href=\"\/pages\/contact\" title=\"Contact\">CONTACT<\/a><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1600323933029": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Soldiers-Mentality-Web_07.png",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "large",
+          "text_size": "medium",
+          "title": "",
+          "text": "",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "160490577813c7d833": {
+        "type": "feature-columns",
+        "blocks": {
+          "160490577813c7d833-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Chap_1.png",
+              "title": "BASIC TRAINING",
+              "text": "<p>The Common Denominator \/ Total Perspective \/ The Chimp Paradox \/ Internal locus of control \/ Habits of the mentally strong<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "160490577813c7d833-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Chap_2.png",
+              "title": "MIND POWER & MENTAL PREPARATION",
+              "text": "<p>4 Pillars of mental toughness \/ The 40% rule \/ Mantras \/ The million dollar question \/ Attach yourself to the feeling \/ Bank of memories \/ Fear is useful \/ Meditation and mindfulness<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "160490577813c7d833-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Chap_3.png",
+              "title": "MOTIVATION & DETERMINATION",
+              "text": "<p>Get up and train. Your enemy already started \/ The 1% Pledge \/ Thinspiration \/ 4.5 Billion years of evolution \/ Just do 2 minutes \/ Self Contract<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "160490577813c7d833-0",
+          "160490577813c7d833-1",
+          "160490577813c7d833-2"
+        ],
+        "settings": {
+          "title": "Chapters and Contents",
+          "align_text": "center"
+        }
+      },
+      "1604905995bcf4c1f9": {
+        "type": "feature-columns",
+        "blocks": {
+          "1604905995bcf4c1f9-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Chap_4.png",
+              "title": "SUCCESS",
+              "text": "<p>Who plans wins \/ Make your bed \/ The 70% solution \/ Bluffing confidence \/ The wisdom of psychopaths \/ Who watches TV these days? \/ Boss vs leader<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1604905995bcf4c1f9-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Chap_5.png",
+              "title": "ANXIETY, DEPRESSION & STRESS RELIEF",
+              "text": "<p>Positive thinking techniques \/ The Helicopter method \/ 6 Thinking hats \/ Stress Break \/ Everything is a human invention \/ Rejection therapy<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "1604905995bcf4c1f9-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/Chap_6.png",
+              "title": "SPECIAL FORCES SELECTION & MILITARY TRAINING",
+              "text": "<p>The warrior ethos \/ One in 133,000 \/ The distance on your arm \/ If it’s not raining, it’s not training \/ Never trust a think cook \/ March or die \/ Murphy’s law of combat<\/p>",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1604905995bcf4c1f9-0",
+          "1604905995bcf4c1f9-1",
+          "1604905995bcf4c1f9-2"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "center"
+        }
+      },
+      "16049060118a97749b": {
+        "type": "quotes",
+        "blocks": {
+          "16049060118a97749b-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>EXCELLENT READ AND EASY TO IMPLEMENT. Saw this ebook a few times on Instagram and thought it looked good. It did not disappoint. It is helping me to move on from being worried about a long-term injury to train for my first IronMan!<\/p>",
+              "author": "Chris T \/ customer"
+            }
+          },
+          "16049060118a97749b-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>BEST MENTAL STRENGTH BOOK I’VE READ... and I&#x27;v been through a lot. A mix of highly available knowledge for the newbie and some new methods for those like me who&#x27;ve studied this subject before.<\/p>",
+              "author": "JK \/ customer"
+            }
+          },
+          "16049060118a97749b-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>BECOME MORE MENTALLY AWARE! If you want to improve your mental toughness, this book will help you do it. It&#x27;s inspiring and easy to implement, whilst being fascinating. Both thumbs up<\/p>",
+              "author": "James H \/ customer"
+            }
+          }
+        },
+        "block_order": [
+          "16049060118a97749b-0",
+          "16049060118a97749b-1",
+          "16049060118a97749b-2"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "1604906221ec54b3d8": {
+        "type": "quotes",
+        "blocks": {
+          "1604906221ec54b3d8-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>GREAT FOR MILITARY AND CIVILIAN. The methods employed by Special Forces to develop mental strength are covered and explained in the book, along with advice on how you can apply these methods to your own life.<\/p>",
+              "author": "Colin M \/ customer"
+            }
+          },
+          "1604906221ec54b3d8-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Being an athlete who is trying to always get to his peak performance at the highest level in my discipline is always going to be tough and I am always looking at ways I can improve my performances. The mental aspect is of course the most important part to performing under pressure.This book helped me to step up my mental game and improve it undeniably.<\/p>",
+              "author": "George \/ customer"
+            }
+          },
+          "1604906221ec54b3d8-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Life has a way of knocking us all down to the level of discouragement and worse. This is the book to have when this happens. Excellent! I would whole-heartedly recommend this book to my own clients and to anyone who feels that they could benefit by not giving up on their goals...<\/p>",
+              "author": "AdamP \/ customer"
+            }
+          }
+        },
+        "block_order": [
+          "1604906221ec54b3d8-0",
+          "1604906221ec54b3d8-1",
+          "1604906221ec54b3d8-2"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "160490636999a9cc95": {
+        "type": "featured-blog",
+        "settings": {
+          "title": "Mental Strength Book Blog..",
+          "blog": "news",
+          "post_limit": 3,
+          "blog_show_author": false,
+          "blog_show_date": true,
+          "show_view_all": false
+        }
+      }
+    },
+    "content_for_index": [
+      "1570797091654",
+      "1570796607056",
+      "1571913570191",
+      "1571913617304",
+      "1575496281081",
+      "1575496301693",
+      "1600323933029",
+      "160490577813c7d833",
+      "1604905995bcf4c1f9",
+      "16049060118a97749b",
+      "1575496371680",
+      "1604906221ec54b3d8",
+      "160490636999a9cc95",
+      "1575496403802"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "color_text": "#3d4246",
+      "color_body_text": "#69727b",
+      "color_sale_text": "#557B97",
+      "color_borders": "#e8e9eb",
+      "color_button": "#557B97",
+      "color_button_text": "#fff",
+      "color_small_button_text_border": "#3d4246",
+      "color_text_field": "#fff",
+      "color_text_field_text": "#000",
+      "color_text_field_border": "#949494",
+      "color_image_overlay_text": "#fff",
+      "color_image_overlay": "#3d4246",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#fff",
+      "type_header_font": "work_sans_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "work_sans_n4",
+      "type_base_size": 16,
+      "type_bold_product_titles": false,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {}
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "slideshow-1": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "slideshow-1"
+          ],
+          "settings": {}
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "feature-row",
+        "slideshow"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "type_bold_product_titles": true,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_size": "medium",
+            "show_quantity_selector": false,
+            "show_variant_labels": true,
+            "show_vendor": false,
+            "enable_zoom": true,
+            "show_share_buttons": true
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {}
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {}
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}
