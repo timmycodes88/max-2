@@ -196,9 +196,35 @@
                   {% include 'icon-spinner' %}
                 </span>
               </button>
-              {% if section.settings.enable_payment_button %}
-                {{ form | payment_button }}
+
+              {% comment %} Start Custom Edits Tim V {% endcomment %}
+
+              {% comment %}Buy Now Button{% endcomment %}
+              <button type="button" class="btn product-form__cart-submit btn--secondary-accent" data-buy-now>
+                <span> Buy Now Credit/Debit Card </span>
+              </button> 
+              <script> 
+                       document.querySelector('[data-buy-now]').addEventListener('click', () => { let addToCartForm = document.querySelector('form[action$="/cart/add"]'); 
+                       let formData = new FormData(addToCartForm); 
+                       fetch(window.Shopify.routes.root + 'cart/add.js', { method: 'POST', body: formData }) .then(response => { window.location.href = '/checkout'; return response.json(); }) .catch((error) => { console.error('Error:', error); }); }); 
+              </script>
+
+              {% comment %}Add PayPal Button{% endcomment %}
+              {% if additional_checkout_buttons %}
+                <div style="margin-top: 0 !important;" class="additional-checkout-buttons additional-checkout-buttons--vertical show-paypal-only">
+                  {{ content_for_additional_checkout_buttons }}
+                </div>
               {% endif %}
+
+              {% comment %}Class added to make button disappear and keep More Payment Options{% endcomment %}
+              {% if section.settings.enable_payment_button %}
+                <div class="tim-buy-now">
+                  {{ form | payment_button }}
+                </div>
+              {% endif %}
+
+              {% comment %} End Custom Edits Tim V {% endcomment %}
+              
             </div>
           {% endform %}
         </div>
